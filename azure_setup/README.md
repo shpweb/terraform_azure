@@ -1,7 +1,9 @@
 # Terraform with Azure Cloud 
 
 #### Please follow the below steps inorder to setup Azure Account.!
-#### 1. Redeem Azure Pass 
+
+#### 1. terraform in your setup works with Azure CLI only, so install Azure CLI first (alternatively you can use CloudShell available on azure portal itself which is terraform in-built embedded)
+
 #### 2. Open Azure CLI 
 
 ##### Now Create Azure Contributor Service Principal for terraform Auth.
@@ -33,7 +35,7 @@ export ARM_SUBSCRIPTION_ID="<<subscriptionID>>"
 export ARM_TENANT_ID="<<tenant>>"
 ```
 
-### Initialize the Bashrc Variables
+### Initialize the Bashrc Variables (optional)
 ```
 source /root/.bashrc
 ```
